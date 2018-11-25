@@ -1,0 +1,3 @@
+deb https://weechat.org/ubuntu cosmic main
+deb-src https://weechat.org/ubuntu cosmic main
+
