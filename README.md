@@ -21,13 +21,13 @@ ssh -p 2022 root@localhost
 screen -R
 
 # detach CTRL-A D
-``
+```
 
 # Upgrade
 
 ```
 docker-compose down
-docker-compose build
+docker-compose build --no-cache
 docker-compose up -d
 ```
 
